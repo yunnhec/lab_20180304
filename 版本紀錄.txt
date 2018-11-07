@@ -1,0 +1,26 @@
+=====================================================================
+阻抗控制實驗
+imp_v6		可調整皮帶輪減速比、比較Avg8/4/2濾波結果
+imp_v7		只留下Avg8濾波
+imp_v8		加入切換磁性編碼器選項及Mavg速度估測
+imp_v9		改用NI9401讀取編碼器(*4)
+imp_v9_1	刪掉strain gage多餘的while loop
+imp_v9_2	所有High Throughput運算的Overflow mode改為Saturate
+imp_v9		High Throughput Math改成一般的運算子、修改PID參數的位數
+
+=====================================================================
+位置控制實驗
+
+
+=====================================================================
+擷取卡測試
+strain_test	讀取應變歸訊號
+strain_test2	參考NI9264Getting Started重寫
+strain_test3	參考簡隸的改寫
+strain_test_v2	使用ButterWorthFilter濾波
+strain_test_v3	加入平均法濾波
+strain_test_v4	Avg8 SubVI
+NI_9237_filter_test	比較不同點數目平均濾波
+strain_9215_v1	以9215讀取應變規
+strain_9215_v2	以9215讀取應變規並濾波
+NI_9215_9264	比較9237、9215量測應變規訊號
