@@ -23,6 +23,15 @@ imp_v10_2	FIFO只留一個case(imp)、加Mag_factor的ini.值、改皮帶輪齒數
 *****************FIFO_v10_p1以前還是讀不到值******************
 之後要加入阻抗控制的程式(再改PID那邊)
 imp_v10_p1	把Yaw有關的程式都刪掉、FIFO改v3			終於可以用了QQ
+imp_v11_p1	Mavg Filter迴圈速度、加入阻抗(純勁度)控制(位置命令 = 0)
+imp_v11_p2	阻抗控制架構加入位置追蹤命令、Kv位數改26/7
+imp_v11_p3	加入力量極限保護(force_lim)
+imp_v12_p	用atan解theta2、theta3 (X)
+imp_v12_p2	用PC端解theta2、theta3 <---------------------------
+imp_v12_p3	改用多項式擬合theta2(r4)和theta3(r4)
+imp_v12p2_theta23	(PcVI)修改kv2Kv 加絕對值
+imp_v12_p4	
+imp_v12p4_theta23	(PcVI)修改kv2Kv 加絕對值、乘1000讓Kv的單位是(Nm/rad)
 =====================================================================
 位置控制實驗
 MagEncoder_cal_v1	磁性編碼器校正用(已損壞)
